@@ -99,22 +99,22 @@ class MapViewController: UIViewController {
         self.mapView.setUserTrackingMode(MKUserTrackingMode.follow, animated: true)
     }
     
-    private func setupTileRenderer() {
-      // 1
-      let template = "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
-
-      // 2
-      let overlay = MKTileOverlay(urlTemplate: template)
-
-      // 3
-      overlay.canReplaceMapContent = true
-
-      // 4
-      mapView.addOverlay(overlay, level: .aboveLabels)
-
-      //5
-      tileRenderer = MKTileOverlayRenderer(tileOverlay: overlay)
-    }
+//    private func setupTileRenderer() {
+//      // 1
+//      let template = "https://tile.openstreetmap.org/{z}/{x}/{y}.png"
+//
+//      // 2
+//      let overlay = MKTileOverlay(urlTemplate: template)
+//
+//      // 3
+//      overlay.canReplaceMapContent = true
+//
+//      // 4
+//      mapView.addOverlay(overlay, level: .aboveLabels)
+//
+//      //5
+//      tileRenderer = MKTileOverlayRenderer(tileOverlay: overlay)
+//    }
 
 
 }
