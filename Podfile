@@ -7,4 +7,7 @@ target 'MapApp' do
 
   # Pods for MapApp
 pod 'SnapKit'
+pod 'AFNetworking', '~> 2.6'
+pod 'ORStackView', '~> 3.0'
+pod 'SwiftyJSON', '~> 2.3'
 end
